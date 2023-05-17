@@ -3,7 +3,7 @@ import MainHeader from "./main-header";
 
 function Layout(props) {
     return (
-        <Fragment>'
+        <Fragment>
             <MainHeader/>
             <main>
                 {props.children}
