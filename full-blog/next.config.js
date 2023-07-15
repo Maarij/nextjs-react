@@ -1,4 +1,4 @@
-module.exports = (phase, { defaultConfig }) => {
+module.exports = (phase, {defaultConfig}) => {
   return {
     ...defaultConfig,
 
@@ -8,7 +8,6 @@ module.exports = (phase, { defaultConfig }) => {
         fallback: {
           "fs": false,
           "path": false,
-          "os": false,
         }
       }
       return config
